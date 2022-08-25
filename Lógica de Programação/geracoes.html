@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var anoAtual = 2022;
+    var quantidadeGeracoes = Math.round((anoAtual - 1500)/28);
+    mostra("Desde a chegada dos portugueses já se passaram " + quantidadeGeracoes + " gerações");
+
+</script>
